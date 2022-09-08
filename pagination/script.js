@@ -19,7 +19,7 @@ const nextButton = document.getElementById("next-button");
 const prevButton = document.getElementById("prev-button");
 
 const paginationLimit = 10;
-const pageCount = Math.ceil(data.length / paginationLimit);
+const pageCount = 8;
 let currentPage = 1;
 
 const disableButton = (button) => {

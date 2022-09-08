@@ -47,6 +47,7 @@
 	align-items: center;
 	font-size: calc(var(--tileSize) * .8);
 	cursor: pointer;
+    -webkit-user-select: none;
 	user-select: none;
 	transition: background .2s ease;
 	font-family: Tahoma, sans-serif;
